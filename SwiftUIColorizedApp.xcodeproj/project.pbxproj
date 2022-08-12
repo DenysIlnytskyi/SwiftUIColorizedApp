@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		868DD46028A6AC540095948A /* ColorValueTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868DD45F28A6AC540095948A /* ColorValueTextView.swift */; };
+		868DD46228A6AE0B0095948A /* ColorValueTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868DD46128A6AE0B0095948A /* ColorValueTextField.swift */; };
+		868DD46428A6B1B80095948A /* ColorSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868DD46328A6B1B80095948A /* ColorSliderView.swift */; };
 		86F4D7EE28A6A5C00049759B /* SwiftUIColorizedAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4D7ED28A6A5C00049759B /* SwiftUIColorizedAppApp.swift */; };
 		86F4D7F028A6A5C00049759B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4D7EF28A6A5C00049759B /* ContentView.swift */; };
 		86F4D7F228A6A5C10049759B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F4D7F128A6A5C10049759B /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 
 /* Begin PBXFileReference section */
 		868DD45F28A6AC540095948A /* ColorValueTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorValueTextView.swift; sourceTree = "<group>"; };
+		868DD46128A6AE0B0095948A /* ColorValueTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorValueTextField.swift; sourceTree = "<group>"; };
+		868DD46328A6B1B80095948A /* ColorSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSliderView.swift; sourceTree = "<group>"; };
 		86F4D7EA28A6A5C00049759B /* SwiftUIColorizedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIColorizedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F4D7ED28A6A5C00049759B /* SwiftUIColorizedAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIColorizedAppApp.swift; sourceTree = "<group>"; };
 		86F4D7EF28A6A5C00049759B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				86F4D7EF28A6A5C00049759B /* ContentView.swift */,
 				86F4D7FB28A6A76A0049759B /* ColorView.swift */,
 				868DD45F28A6AC540095948A /* ColorValueTextView.swift */,
+				868DD46128A6AE0B0095948A /* ColorValueTextField.swift */,
+				868DD46328A6B1B80095948A /* ColorSliderView.swift */,
 				86F4D7F128A6A5C10049759B /* Assets.xcassets */,
 				86F4D7F328A6A5C10049759B /* Preview Content */,
 			);
@@ -147,6 +153,8 @@
 				86F4D7F028A6A5C00049759B /* ContentView.swift in Sources */,
 				86F4D7EE28A6A5C00049759B /* SwiftUIColorizedAppApp.swift in Sources */,
 				868DD46028A6AC540095948A /* ColorValueTextView.swift in Sources */,
+				868DD46228A6AE0B0095948A /* ColorValueTextField.swift in Sources */,
+				868DD46428A6B1B80095948A /* ColorSliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
