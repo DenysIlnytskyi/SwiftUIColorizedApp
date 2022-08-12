@@ -17,8 +17,8 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            Color(red: red / 255, green: green /  255, blue: blue / 255, opacity: 1).ignoresSafeArea()
-           // Color(#colorLiteral(red: 0, green: 0.3765624762, blue: 0.7304599881, alpha: 1)).ignoresSafeArea()
+           // Color(red: red / 255, green: green /  255, blue: blue / 255, opacity: 1).ignoresSafeArea()
+            Color(#colorLiteral(red: 0, green: 0.3765624762, blue: 0.7304599881, alpha: 1)).ignoresSafeArea()
             
         VStack(spacing: 40) {
             ColorView(red: red, green: green, blue: blue)
